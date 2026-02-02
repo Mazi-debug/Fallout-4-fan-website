@@ -1,3 +1,91 @@
-body {
-    background-color: #dac8a3; /* Sets a soft, warm brown background for the entire page */
+ul.nav 
+{
+    text-align: center; /* Centers navigation items */
+    list-style-type: none; /* Removes default bullets */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background: linear-gradient(90deg, #519fbe, #519fbe); /* Bright orange gradient */
+    overflow: hidden; /* Ensures child items don’t overflow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds soft drop shadow */
+    border-radius: 12px; /* Rounded corners for a modern look */
+}
+
+/* Styles for each navigation item */
+ul.nav li 
+{
+    display: inline-block; /* Aligns items horizontally */
+    text-align: center; /* Centers text within item */
+}
+
+/* Link styling within navigation */
+ul.nav li a 
+{
+    display: block; /* Makes the link clickable across the whole area */
+    color: #000000; /* Black text for readability */
+    text-decoration: none; /* Removes underline */
+    padding: 14px 20px; /* Adds comfortable clickable padding */
+    font-weight: bold; /* Emphasizes navigation text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
+}
+
+/* Hover effect for navigation links */
+ul.nav li a:hover 
+{
+    background-color: #d9e667; /* Soft brown hover background */
+    color: #000000; /* Keeps text black */
+    border-radius: 8px; /* Slightly rounds the link on hover */
+}
+
+ul.Home-list 
+{
+    text-align: center; /* Centers navigation items */
+    list-style-type: none; /* Removes default bullets */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background: linear-gradient(90deg, #d9e667, #d9e667); /* Bright orange gradient */
+    overflow: hidden; /* Ensures child items don’t overflow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds soft drop shadow */
+    border-radius: 12px; /* Rounded corners for a modern look */
+}
+
+
+h1, h2
+{
+    margin: 20px 0; /* Adds vertical spacing */
+    background: linear-gradient(90deg, #519fbe, #519fbe); /* Orange gradient background */
+    overflow: hidden; /* Prevents layout issues */
+    text-align: center; /* Centers all headings */
+    border-radius: 12px; /* Rounded background edges */
+    padding: 2px; /* Slight padding for visual comfort */
+    color: #000000; /* Black text for contrast */
+    font-family: 'Palatino Linotype', serif; /* Classic, readable serif font */
+}
+
+img 
+{
+    display: block; /* Removes inline spacing and allows centering */
+    margin: 0 auto 20px auto; /* Centers image horizontally and adds bottom spacing */
+    max-width: 100%; /* Ensures image doesn't overflow its container */
+    height: auto; /* Maintains correct aspect ratio */
+}
+
+body 
+{
+    background-color: #a48342; /* Sets a soft, warm brown background for the entire page */
+}
+
+p 
+{
+    font-size: 18px; /* Easy-to-read size */
+    padding: 10px;
+    margin: 15px 0; /* Space between paragraphs */
+    background-color: #ffffff; /* Clean white background */
+    color: #000000; /* Black text for high readability */
+}
+
+header, footer 
+{
+  text-align: center; /* Centers all text within header and footer */
+  margin-top: 20px; /* Adds vertical space above these sections */
+  margin-bottom: 20px; /* Adds vertical space below these sections */
 }
