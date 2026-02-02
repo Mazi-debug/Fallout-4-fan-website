@@ -36,7 +36,7 @@ ul.nav li a:hover
     border-radius: 8px; /* Slightly rounds the link on hover */
 }
 
-ul.Home-list 
+ul.Home-list, ul.companions-list
 {
     text-align: center; /* Centers navigation items */
     list-style-type: none; /* Removes default bullets */
