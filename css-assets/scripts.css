@@ -31,7 +31,7 @@ ul.nav li a
 /* Hover effect for navigation links */
 ul.nav li a:hover 
 {
-    background-color: #d9e667; /* Soft brown hover background */
+    background-color: #ebde68; /* Soft brown hover background */
     color: #000000; /* Keeps text black */
     border-radius: 8px; /* Slightly rounds the link on hover */
 }
@@ -42,12 +42,18 @@ ul.Home-list
     list-style-type: none; /* Removes default bullets */
     margin: 0; /* Removes default margin */
     padding: 0; /* Removes default padding */
-    background: linear-gradient(90deg, #d9e667, #d9e667); /* Bright orange gradient */
     overflow: hidden; /* Ensures child items don’t overflow */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds soft drop shadow */
     border-radius: 12px; /* Rounded corners for a modern look */
 }
 
+section 
+{
+  background: #ebde68; /* White background for contrast */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds subtle depth */
+  padding: 20px; /* Internal spacing */
+  margin-bottom: 20px; /* Space between sections */
+}
 
 h1, h2
 {
@@ -79,6 +85,7 @@ p
     font-size: 18px; /* Easy-to-read size */
     padding: 10px;
     margin: 15px 0; /* Space between paragraphs */
+    border-radius: 12px; /* Smooth rounded corners */
     background-color: #ffffff; /* Clean white background */
     color: #000000; /* Black text for high readability */
 }
